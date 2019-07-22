@@ -65,7 +65,7 @@ function squareColor() {
                 h1.style.backgroundColor = pickedColor
                 newColors.textContent = "Play Again!"
             } else {
-                this.style.backgroundColor = "steelblue"
+                this.style.backgroundColor = "#232323"
                 messageDisplay.textContent = "Try Again"
             }
         })
