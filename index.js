@@ -15,7 +15,7 @@ newColors.addEventListener('click', function () {
     pickedColor = pickColor()
     displayColor.textContent = pickedColor
     squareColor()
-    h1.style.backgroundColor = "#232323"
+    h1.style.backgroundColor = "steelblue"
     messageDisplay.textContent = ""
 })
 

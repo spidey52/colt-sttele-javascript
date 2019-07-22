@@ -8,10 +8,14 @@ h1{
     color: beige;
     text-align: center;
     margin:  0;
-    padding: 0;
+    /* padding: 0; */
+    background: steelblue;
+    text-transform: uppercase;
+    line-height: 1.1; 
+    padding: 1rem 0;
 }
 #displayColor{
-    font-size: 5rem;
+    font-size: 200%;
 }
 a{
     color: beige;
@@ -43,7 +47,28 @@ a{
     height: 1.8rem;
     background-color: beige;
 }
-
+#messageDisplay{
+    display: inline-block;
+    width: 16%;
+}
 .selected{
-    background-color: aqua;
+    background-color: steelblue;
+    color: white;
+}
+
+button{
+    border:  none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-size: inherit;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: steelblue;
+    transition: all 0.4s;
+}
+
+button:hover{
+    color: white;
+    background: steelblue;
 }
