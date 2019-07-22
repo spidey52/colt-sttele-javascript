@@ -26,7 +26,7 @@ easyButton.addEventListener('click', function () {
     pickedColor = pickColor()
     displayColor.textContent = pickedColor
     squareColor()
-    h1.style.backgroundColor = "#232323"
+    h1.style.backgroundColor = "steelblue"
     messageDisplay.textContent = ""
     for (let i = 3; i < squares.length; i++) {
         squares[i].style.display = "none";
@@ -36,7 +36,7 @@ easyButton.addEventListener('click', function () {
         pickedColor = pickColor()
         displayColor.textContent = pickedColor
         squareColor()
-        h1.style.backgroundColor = "#232323"
+        h1.style.backgroundColor = "steelblue"
         messageDisplay.textContent = ""
     })
 })
@@ -48,7 +48,7 @@ hardButton.addEventListener('click', function () {
     pickedColor = pickColor()
     displayColor.textContent = pickedColor
     squareColor()
-    h1.style.backgroundColor = "#232323"
+    h1.style.backgroundColor = "steelblue"
     messageDisplay.textContent = ""
     for (let i = 3; i < squares.length; i++) {
         squares[i].style.display = "block";
@@ -65,7 +65,7 @@ function squareColor() {
                 h1.style.backgroundColor = pickedColor
                 newColors.textContent = "Play Again!"
             } else {
-                this.style.backgroundColor = "#232323"
+                this.style.backgroundColor = "steelblue"
                 messageDisplay.textContent = "Try Again"
             }
         })
