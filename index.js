@@ -28,6 +28,7 @@ easyButton.addEventListener('click', function () {
     squareColor()
     h1.style.backgroundColor = "steelblue"
     messageDisplay.textContent = ""
+    newColors.textContent = "NEW COLORS"
     for (let i = 3; i < squares.length; i++) {
         squares[i].style.display = "none";
     }
@@ -50,6 +51,7 @@ hardButton.addEventListener('click', function () {
     squareColor()
     h1.style.backgroundColor = "steelblue"
     messageDisplay.textContent = ""
+    newColors.textContent = "NEW COLORS"
     for (let i = 3; i < squares.length; i++) {
         squares[i].style.display = "block";
     }

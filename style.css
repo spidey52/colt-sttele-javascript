@@ -66,6 +66,7 @@ button{
     letter-spacing: 1px;
     color: steelblue;
     transition: all 0.4s;
+        outline: none;
 }
 
 button:hover{
