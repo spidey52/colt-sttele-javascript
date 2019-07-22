@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+}
+
+h1{ 
+    color: beige;
+    text-align: center;
+    margin:  0;
+    padding: 0;
+}
+#displayColor{
+    font-size: 5rem;
+}
+a{
+    color: beige;
+    font-size: 32px;
+}
+
+.squares{
+    width: 30%;
+    background: blue;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 1.4rem;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#messageDisplay{
+    color:  black;
+    text-align: center;
+}
+#mode{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 1.8rem;
+    background-color: beige;
+}
+
+.selected{
+    background-color: aqua;
+}
